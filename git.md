@@ -72,5 +72,9 @@ git config --global mergetool.keepBackup false
 git commit -m 'updated'
 git rebase -i HEAD~2
 ```
+# git config alias
+```
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
+```
 

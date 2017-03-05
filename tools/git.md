@@ -54,7 +54,8 @@ $git push -f origin local_branch:remote_branch
 
 # 使用vimdiff来解决冲突
 [Use vimdiff as git mergetool](http://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/)
-## git config
+# git config
+
 ```
 git config merge.tool vimdiff
 git config merge.conflictstyle diff3
@@ -72,9 +73,18 @@ git config --global mergetool.keepBackup false
 git commit -m 'updated'
 git rebase -i HEAD~2
 ```
+
+
 # git config alias
+
 ```
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 ```
+
+
+
+# 中文显示问题解决方式
+
+[git中文显示问题解决](http://xstarcd.github.io/wiki/shell/git_chinese.html)
 
